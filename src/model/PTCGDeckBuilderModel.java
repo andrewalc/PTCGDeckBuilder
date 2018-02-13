@@ -3,7 +3,8 @@ package model;
 import java.util.HashMap;
 
 /**
- * Created by Andrew Alcala on 8/3/2017.
+ * Model implementation for a PTCG deck builder. The builder allows the user to add, remove, and
+ * modify their deck and look at the deck as a whole at a glance.
  */
 public class PTCGDeckBuilderModel implements IDeckBuilderModel<APTCGCard> {
   private String activeDeckName = "";

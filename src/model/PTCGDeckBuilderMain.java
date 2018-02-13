@@ -3,7 +3,7 @@ package model;
 import java.io.InputStreamReader;
 
 /**
- * Created by Andrew Alcala on 8/3/2017.
+ * Main method for the deck builder.
  */
 public class PTCGDeckBuilderMain {
 

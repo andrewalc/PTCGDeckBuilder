@@ -1,12 +1,12 @@
 package model;
 
 /**
- * Created by Andrew Alcala on 8/3/2017.
+ * Interface for the deck builder controller.
  */
 public interface IDeckBuilderController<Card> {
 
   /**
-   * Starts the deck builder controller for input.
+   * Starts the deck builder controller for input of a IDeckBuilderModel.
    */
   void startDeckBuilder(IDeckBuilderModel<Card> model);
 }

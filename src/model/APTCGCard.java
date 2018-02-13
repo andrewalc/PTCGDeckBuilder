@@ -1,7 +1,7 @@
 package model;
 
 /**
- * Created by Andrew Alcala on 8/3/2017.
+ * Abstract class for a Pokemon Trading Card Game card.
  */
 public abstract class APTCGCard {
 
@@ -10,6 +10,12 @@ public abstract class APTCGCard {
   private final int cardNum;
 
 
+  /**
+   * Constructor for a general PTCG card.
+   * @param name The name of the card.
+   * @param expansion The expansion the card is from.
+   * @param cardNum The quantity of the card in possession.
+   */
   public APTCGCard(String name, String expansion, int cardNum) {
     this.name = name;
     this.expansion = expansion;
